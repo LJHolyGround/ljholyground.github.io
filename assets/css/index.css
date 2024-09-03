@@ -19,12 +19,12 @@
   --disabled: #efefef;
 }
 
-/* Dark theme */
-
 @font-face {
   font-family: "Pistilli Roman";
-  src: url("fonts/Pistilli-Roman.otf") format("truetype");
+  src: url("../fonts/Pistilli-Roman.otf") format("truetype");
 }
+
+/* Dark theme */
 
 @media (prefers-color-scheme: dark) {
 
@@ -182,14 +182,14 @@
     width: 100%;
     height: auto;
     display: block;
-    padding: 0rem 0rem 1rem 0rem;
+    padding: 0rem 0rem 2rem 0rem;
   }
 
   .banner-bottom {
     width: 100%;
     height: auto;
     display: block;
-    padding: 1rem 0rem 0rem 0rem;
+    padding: 2rem 0rem 0rem 0rem;
   }
 }
 
@@ -209,21 +209,22 @@ body {
 }
 
 /* Make the header bg full width, but the content inline with body */
-body>header {
+header {
   background: var(--accent-bg);
   border-bottom: 1px solid var(--border);
   text-align: center;
   box-sizing: border-box;
 }
 
-body>header h1 {
+header h1 {
   max-width: 1200px;
   margin: 1rem auto;
 }
 
-body>header p {
+header p {
   max-width: 40rem;
   margin: 1rem auto;
+  font-size: 30px;
 }
 
 /* Add a little padding to ensure spacing is correct between content and nav */
@@ -231,20 +232,23 @@ main {
   padding-top: 1.5rem;
 }
 
-body>main>footer {
+body>footer {
+  margin-top: 4rem;
+  padding: 1.5rem 1rem 1.5rem 1rem;
   color: var(--text-light);
   font-size: 0.9rem;
   text-align: center;
+  border-top: 1px solid var(--border);
 }
 
-body>main>footer>p {
+footer>p {
   margin: 0rem 0rem 0rem 0rem;
 }
 
 /* Format headers */
 h1 {
   font-family: "Pistilli Roman", serif;
-  font-size: 90px;
+  font-size: 128px;
 }
 
 h2 {
@@ -396,6 +400,7 @@ nav a:visited {
   display: inline-block;
   padding: 0.1rem 1rem;
   text-decoration: none;
+  font-size: 24px;
 }
 
 nav a:hover {
