@@ -20,8 +20,123 @@
 }
 
 @font-face {
-    font-family: "Pistilli Roman";
+    font-family: "Apple Chancery";
+    src: url("../fonts/Apple Chancery.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "IMFellEnglish-Italic";
+    src: url("../fonts/IMFellEnglish-Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Pistilli-Roman";
     src: url("../fonts/Pistilli-Roman.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Tungsten-Bold";
+    src: url("../fonts/Tungsten-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Satisfaction";
+    src: url("../fonts/Satisfaction.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Carla Sans";
+    src: url("../fonts/CarlaSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Flourish Orchestral";
+    src: url("../fonts/Flourish Orchestral.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "C1989";
+    src: url("../fonts/C1989.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OPTIEngraversOldEnglish";
+    src: url("../fonts/OPTIEngraversOldEnglish.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Love";
+    src: url("../fonts/Love.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("../fonts/HelveticaNeue.ttc") format("truetype");
+}
+
+@font-face {
+    font-family: "OPTICaslonFive";
+    src: url("../fonts/OPTICaslonFive.otf") format("truetype");
+}
+
+.AppleChancery {
+    font-family: "Apple Chancery", serif;
+    font-size: 128px;
+}
+
+.IMFellEnglish-Italic {
+    font-family: "IMFellEnglish-Italic", serif;
+    font-size: 96px;
+}
+
+.PistilliRoman {
+    font-family: "PistilliRoman", serif;
+    font-size: 128px;
+}
+
+.Tungsten {
+    font-family: "Tungsten", serif;
+    font-size: 96px;
+}
+
+.Satisfaction {
+    font-family: "Satisfaction", serif;
+    font-size: 96px;
+}
+
+.CarlaSans {
+    font-family: "Carla Sans", serif;
+    font-size: 96px;
+}
+
+.FlourishOrchestral {
+    font-family: "Flourish Orchestral", serif;
+    font-size: 96px;
+}
+
+.C1989 {
+    font-family: "C1989", serif;
+    font-size: 96px;
+}
+
+.OPTIEngraversOldEnglish {
+    font-family: "OPTIEngraversOldEnglish", serif;
+    font-size: 96px;
+}
+
+.Love {
+    font-family: "Love", serif;
+    font-size: 96px;
+}
+
+.HelveticaNeue {
+    font-family: "HelveticaNeue", serif;
+    font-size: 96px;
+}
+
+.OPTICaslonFive {
+    font-family: "OPTICaslonFive", serif;
+    font-size: 58;
 }
 
 /* Dark theme */
@@ -241,12 +356,12 @@ footer>p {
 
 /* Format headers */
 h1 {
-    font-family: "Pistilli Roman", serif;
+    font-family: "Pistilli-Roman", serif;
     font-size: 90px;
 }
 
 h2 {
-    font-family: "Pistilli Roman", serif;
+    font-family: "Pistilli-Roman", serif;
     font-size: 50px;
 }
 

@@ -177,20 +177,25 @@
   video {
     opacity: 0.8;
   }
+}
 
-  .banner-top {
-    width: 100%;
-    height: auto;
-    display: block;
-    padding: 0rem 0rem 2rem 0rem;
-  }
+.banner-top {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 0rem 0rem 2rem 0rem;
+}
 
-  .banner-bottom {
-    width: 100%;
-    height: auto;
-    display: block;
-    padding: 2rem 0rem 0rem 0rem;
-  }
+.banner-bottom {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 2rem 0rem 0rem 0rem;
+}
+
+.PistilliRoman {
+  font-family: "PistilliRoman", serif;
+  font-size: 128px;
 }
 
 html {
@@ -394,7 +399,7 @@ nav ol li {
 nav a,
 nav a:visited {
   margin: 0 1rem 1rem 0;
-  border: 1px solid var(--border);
+  border: 2px solid var(--border);
   border-radius: 5px;
   color: var(--text);
   display: inline-block;
