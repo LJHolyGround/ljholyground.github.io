@@ -50,13 +50,13 @@
 }
 
 @font-face {
-    font-family: "Flourish Orchestral";
-    src: url("../fonts/Flourish Orchestral.ttf") format("truetype");
+    font-family: "Mina";
+    src: url("../fonts/Mina-Medium.otf") format("truetype");
 }
 
 @font-face {
-    font-family: "C1989";
-    src: url("../fonts/C1989.ttf") format("truetype");
+    font-family: "_1989";
+    src: url("../fonts/LJH-1989TaylorsVersion-Regular.otf") format("truetype");
 }
 
 @font-face {
@@ -109,13 +109,13 @@
     font-size: 96px;
 }
 
-.FlourishOrchestral {
-    font-family: "Flourish Orchestral", serif;
+.Mina {
+    font-family: "Mina", serif;
     font-size: 96px;
 }
 
-.C1989 {
-    font-family: "C1989", serif;
+._1989 {
+    font-family: "_1989", serif;
     font-size: 96px;
 }
 
