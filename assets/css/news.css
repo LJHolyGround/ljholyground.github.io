@@ -357,7 +357,7 @@ footer>p {
 /* Format headers */
 h1 {
     font-family: "Pistilli-Roman", serif;
-    font-size: 90px;
+    font-size: 5rem;
 }
 
 h2 {
@@ -509,8 +509,8 @@ nav a,
 nav a:visited {
     margin: 0 1rem 1rem 0;
     width: 3rem;
-    border: 1px solid var(--border);
-    border-radius: 5px;
+    border: 1px solid var(--text-light);
+    border-radius: 0.4rem;
     color: var(--text);
     display: inline-block;
     padding: 0.1rem 1rem;
