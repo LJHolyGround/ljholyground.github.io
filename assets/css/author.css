@@ -166,7 +166,7 @@
         --text: #dcdcdc;
         --text-light: #ababab;
         --border: #666;
-        --accent: #ffb300;
+        --accent: #ffffff;
         --code: #f06292;
         --preformatted: #ccc;
         --disabled: #111;
@@ -363,7 +363,7 @@ input[type="button"]:enabled:hover {
 nav {
     font-size: 1rem;
     line-height: 2;
-    padding: 1rem 0 0 0;
+    padding: 1.5rem 0 0 0;
 }
 
 /* Use flexbox to allow items to wrap, as needed */
@@ -388,6 +388,7 @@ nav ol li {
 nav a,
 nav a:visited {
     margin: 0 1rem 1rem 0;
+    width: 3rem;
     border: 1px solid var(--border);
     border-radius: 5px;
     color: var(--text);
