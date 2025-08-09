@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBIDiff Human Evaluation Interface</title>
+    <link rel="stylesheet" href="CSS/evaluation.css">
+</head>
+<body>
+    <div class="container">
+        <h1>User Interface for OBI Preference Selection</h1>
+
+        <h2>Please determine whether the following image is a real-world oracle bone inscription (OBI) image.</h2>
+        
+        <div class="comparison-container">
+            <div class="image-card">
+                <div class="image-wrapper">
+                    <img id="image" src="" alt="image">
+                </div>
+                <div class="radio-wrapper">
+                    <div class="radio-container">
+                        <div class="radio-item">
+                          <label class="radio-label">
+                            <input id="button1" type="radio" name="comparison" value="True" class="selection-radio" data-folder="folder1">
+                          </label>
+                          <span class="radio-text">True</span>
+                        </div>
+                        
+                        <div class="radio-item">
+                          <label class="radio-label">
+                            <input id="button2" type="radio" name="comparison" value="False" class="selection-radio" data-folder="folder2">
+                          </label>
+                          <span class="radio-text">False</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="prev-btn">Previous</button>
+            <span id="counter">1 / 0</span>
+            <button id="next-btn">Next</button>
+        </div>
+        
+        <div class="results">
+            <button id="export-btn">Export</button>
+        </div>
+    </div>
+    <script src="JS/evaluation.js"></script>
+</body>
+</html>

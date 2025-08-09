@@ -1,0 +1,55 @@
+---
+layout: null
+redirect_from:
+- /eval
+- /eval/index
+---
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBIDiff User Login</title>
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <!-- Bilingual Title -->
+        <h1>OBIDiff User Login</h1>
+
+        <form id="loginForm">
+            <!-- Username Field -->
+            <div class="form-group">
+                <label for="username">Username / 用户名</label>
+                <input type="text" id="username" required>
+            </div>
+
+            <!-- Email Field -->
+            <div class="form-group">
+                <label for="email">Email / 电子邮箱</label>
+                <input type="email" id="email"
+                    title="Please enter a valid email address (eg: user@example.com) / 请输入有效的邮箱地址 (例如: user@example.com)"
+                    required>
+                <div class="error-message" id="email-error"></div>
+            </div>
+
+            <!-- Major Field -->
+            <div class="form-group">
+                <label for="major">Major / 专业</label>
+                <input type="text" id="major" required>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit">Login / 登录</button>
+
+            <!-- Error Message -->
+            <div id="error-message" class="error"></div>
+        </form>
+    </div>
+    <script src="JS/index.js"></script>
+</body>
+
+</html>
