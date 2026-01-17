@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! My name is Jinhao Li, a Master student in Computer Science at East China Normal University under the supervision of Prof. Changbo Wang. I'm interested in artificial intelligence generated content (AIGC) and multi-modal large language models (MLLMs). Previously, my research focuses on the oracle bone inscriptions (OBI), i.e., OBI denoising, generation, and recognition. In the future, I will focus on visual understanding, advancing both perception and reasoning in an end-to-end manner.
+Hi! My name is Jinhao Li, a Master student in Computer Science at East China Normal University under the supervision of Prof. Changbo Wang. I'm interested in artificial intelligence generated content (AIGC) and multi-modal large language models (MLLMs). Previously, my research focuses on the oracle bone inscriptions (OBIs), i.e., OBI denoising, generation, and recognition. In the future, I will work on visual understanding of OBIs and the evaluation and finetuning of MLLMs.
 
 # 💬 News
 
